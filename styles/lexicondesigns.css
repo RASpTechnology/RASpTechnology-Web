@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-image: url(file:///C|/workspace/Dreamweaver/tutorialSite/images/background.png);
+	margin: 0px;
+}
+#page-wrap 
+{
+	width: 1008px;
+	color: #027193;
+    background: #FFF;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header 
+{
+	background-image: url(file:///C|/workspace/Dreamweaver/tutorialSite/images/banner.png);
+	height: 128px;
+	background-color: #027193
+}
+
+/* ~~ Navigation Menu ~~ */
+#menu-bar
+{
+	background-color: #027193;
+}
+#menu_wrap
+{
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	padding-right: 0px;
+	width: inherit;
+	height: 40px;
+	list-style-type: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2)
+}
+.button a
+{
+	cursor: pointer;
+	text-align: center;
+	font: 13px/100% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	position: relative;
+	min-width: 50px;
+	height: 20px;
+	float: left;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	width: 123px;
+}
+.button:first-child a
+{
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	
+	-moz-border-topleft-radius:10px;
+	-moz-border-bottomleft-radius:10px;
+	
+	border-top-left-radius:10;border-bottom-left-radius:10px
+}
+.Blue,.Blue .button a
+{
+	color:#d9eef7;
+	background: #00adee;
+	border-right:solid 1px #0078a5;
+	background: -moz-linear-gradient(top, #00adee 0%, #0078a5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00adee), color-stop(100%,#0078a5));
+	background: -webkit-linear-gradient(top, #00adee 0%,#0078a5 100%);
+	background: -o-linear-gradient(top, #00adee 0%,#0078a5 100%);
+	background: -ms-linear-gradient(top, #00adee 0%,#0078a5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adee', endColorstr='#0078a5',GradientType=0 )
+	;background: linear-gradient(top, #00adee 0%,#0078a5 100%);
+}
+.Blue .button a:hover,.Blue .button a:focus
+{
+	background: #0095cc;
+	background: -moz-linear-gradient(top, #0095cc 0%, #00678e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0095cc), color-stop(100%,#00678e));
+	background: -webkit-linear-gradient(top, #0095cc 0%,#00678e 100%);
+	background: -o-linear-gradient(top, #0095cc 0%,#00678e 100%);
+	background: -ms-linear-gradient(top, #0095cc 0%,#00678e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095cc', endColorstr='#00678e',GradientType=0 );
+	background: linear-gradient(top, #0095cc 0%,#00678e 100%);
+}
+
+.Blue .button a:active
+{
+	background: #0078a5;
+	background: -moz-linear-gradient(top, #0078a5 0%, #00adee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0078a5), color-stop(100%,#00adee));
+	background: -webkit-linear-gradient(top, #0078a5 0%,#00adee 100%);
+	background: -o-linear-gradient(top, #0078a5 0%,#00adee 100%);
+	background: -ms-linear-gradient(top, #0078a5 0%,#00adee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0078a5', endColorstr='#00adee',GradientType=0 );
+	background: linear-gradient(top, #0078a5 0%,#00adee 100%);
+}
+.button:last-child a
+{
+	float:left;
+	border:none;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px
+}
+
+/* ~~ sidebar stuffs ~~ */
+.sidebar1 a
+{
+	color:#d9eef7;
+	cursor: pointer;
+	text-align: center;
+	font: 13px/100% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+.sidebar1 
+{
+	float: left;
+	width: 138px;
+	background-color: #FFFFFF;
+	padding: 3px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 35px;
+	border: 2px solid #29ADD5;
+}
+
+ul.nav {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-image: url(file:///C|/workspace/Dreamweaver/tutorialSite/images/triangle.png);
+}
+
+
+.navbox 
+{
+	/* fallback */
+	background-color: #00adee;
+	background-image: url(images/radial_bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	/* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#0078a5), to(#00adee));
+	/* Safari 5.1+, Chrome 10+ */
+	background: -webkit-radial-gradient(circle, #00adee, #0078a5);
+	/* Firefox 3.6+ */
+	background: -moz-radial-gradient(circle, #0078a5, #00adee);
+	/* IE 10 */
+	background: -ms-radial-gradient(circle, #0078a5, #00adee);
+	padding: 5px;
+  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+  
+  	-webkit-border-radius: 10px;
+	
+	-moz-border-radius: 10px;
+	
+	border-radius: 10px;
+}
+
+/* ~~ main content ~~ */
+.bigbox 
+{
+  padding: 3px; 
+  margin: 15px;
+  background: #ffffff;
+  border: 2px solid #29ADD5;
+}
+h1, h2, h3, h4, h5, h6, p 
+{
+	margin-top: 0;
+	margin-bottom: 2px;
+	padding: 5px;
+}
+h3
+{
+	color: #FFFFFF;
+	background-color: #027193;
+}
+h4
+{
+	background-color: #29ADD5;
+	color: #5b6066;
+}
+
+.content 
+{
+	width: 80%;
+	float: left;
+	padding-top: 15px;
+}
+
+/* ~~ The footer ~~ */
+.footer 
+{
+	padding-bottom:16px;
+	height: 16px;
+	width: 1008px;
+	background-color: #027193;
+	color: #FFF;
+	clear: both;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
